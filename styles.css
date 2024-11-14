@@ -1,0 +1,24 @@
+*{
+  margin:0px;
+  padding:0px
+}
+.con{
+  background-color:#cfd;
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  overflow:auto;
+  gap:5px
+}
+.mk{
+  display:flex;
+  background-color:#2feeee;
+  border:2px solid #cccfff;
+  border-radius:20px;
+  width:200px;
+  height:200px;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  font-size:25px;
+}
